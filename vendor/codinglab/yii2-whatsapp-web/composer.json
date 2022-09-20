@@ -1,0 +1,21 @@
+{
+    "name": "codinglab/yii2-whatsapp-web",
+    "description": "codinglab",
+    "type": "library",
+    "keywords": [
+        "whatsapp",
+        "extension"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "codinglab.id",
+            "email": "codinglab.id@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "codinglab\\whatsappweb\\": ""
+        }
+    }
+}

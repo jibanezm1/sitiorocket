@@ -1,0 +1,43 @@
+{
+  "name": "vintage/yii2-lets-talk",
+  "description": "With this extension you can open chat with someone in popular messengers across link on your website",
+  "keywords": ["yii2", "widget", "messengers", "api"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/vintage/yii2-lets-talk",
+    "issues": "https://github.com/vintage/yii2-lets-talk/issues"
+  },
+  "authors": [
+    {
+      "name": "Vladimir Kuprienko",
+      "email": "vldmr.kuprienko@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "yiisoft/yii2": "^2.0.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "~2.2",
+    "codeception/verify": "*",
+    "codeception/specify": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "vintage\\lets\\talk\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "prs-4": {
+      "vintage\\lets\\talk\\tests\\": "tests"
+    }
+  }
+}
